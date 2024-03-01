@@ -10,7 +10,7 @@ method needs to be implemented or values hard coded.
 
 ## CEA Implementation
 This model uses the CEA implementation of [RocketCEA](https://rocketcea.readthedocs.io/en/latest/). This requires Fortran compilers and can be installed using the method outlined in 
-PyRocket. Restrictions on the DLR network may apply. If you prefer to use another implementation of CEA, then simply writer a wrapper class that used the same name spaces as in the CEAClass.py file.
+PyRocket. If you prefer to use another implementation of CEA, then simply writer a wrapper class that used the same name spaces as in the CEAClass.py file.
 Or replace instances of where the current CEA class is used with your own. 
 
 ## Engine Sizing Tool
